@@ -11,7 +11,9 @@
 </head>
 <body>
 
-<p>Your preferrer language is "<span>...</span>", it this the same language as your computer? <a href="https://twitter.com/AdriaanvRossum">Let me know.</a></p>
+<p>Your preferred language is "<span>...</span>", it this correct (<a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/languages">mdn</a>)?</p>
+
+<p><a href="https://twitter.com/AdriaanvRossum">Let me know.</a></p>
 
 <script>
   document.querySelector('span').textContent = navigator.language || 'unkown'
