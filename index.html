@@ -4,8 +4,8 @@
 </head>
 <body>
 
-<p>Your preferrer language is "<span>...</span>", it this correct?</p>
+<p>Your preferrer language is "<span>...</span>", it this correct? <a href="https://twitter.com/AdriaanvRossum">Let me know.</a></p>
 
 <script>
-  document.querySelector('span').textContent = (navigator.languages ? navigator.languages.join(', ') : navigator.language) || 'unkown'
+  document.querySelector('span').textContent = navigator.language || 'unkown'
 </script>
