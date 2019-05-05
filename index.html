@@ -1,0 +1,11 @@
+<html>
+<head>
+  <title>Languages support in JavaScript</title>
+</head>
+<body>
+
+<p>Your preferrer language is "<span>...</span>", it this correct?</p>
+
+<script>
+  document.querySelector('span').textContent = (navigator.languages ? navigator.languages.join(', ') : navigator.language) || 'unkown'
+</script>
