@@ -1,10 +1,17 @@
 <html>
 <head>
   <title>Languages support in JavaScript</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin-top: 5rem;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-<p>Your preferrer language is "<span>...</span>", it this correct? <a href="https://twitter.com/AdriaanvRossum">Let me know.</a></p>
+<p>Your preferrer language is "<span>...</span>", it this the same language as your computer? <a href="https://twitter.com/AdriaanvRossum">Let me know.</a></p>
 
 <script>
   document.querySelector('span').textContent = navigator.language || 'unkown'
